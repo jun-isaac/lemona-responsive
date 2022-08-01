@@ -101,7 +101,6 @@ section h2 {
 
 /* 메인 비주얼 */
 #main-visual {
-  background: #FCEEAD;
   width: 100%;
   height: calc(100vh - var(--mobile-header-height));
   box-sizing: content-box;
@@ -224,4 +223,6 @@ section h2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
+	height: 100%;
 }

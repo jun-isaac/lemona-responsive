@@ -1,14 +1,20 @@
 :root {
-	--brand-color: #fec82f;
-	--main-color: #fef200;
-	--sub-color:#ed1b25;
-	--bg-color-light: #f1f1f1;
+	--brand-color: #FEC82F;
+	--main-color: #F2F200;
+	--sub-color:#ED1D25;
+	--bg-color-light: #F1F1F1;
 	--text-color-dark: #111;
 	--text-color-light:#666;
 	/* header 높이값 */
 	--pc-header-height: 90px;
 	--mobile-header-height: 60px;
+
+	  /* 배너 색상 */
+		--banner-bg-color1: #FCEEAD;
+		--banner-bg-color2: #C1A3D9;
+		--banner-bg-color3: #BEDE71;
 }
+
 
 body{
 	font-family: 'Noto Sans KR', sans-serif;
@@ -58,4 +64,8 @@ button:hover {
 .btn-detail {
 	background: var(--sub-color);
 	color: #fff;
+}
+
+#main-visual {
+	background: var(--banner-bg-color1);
 }
