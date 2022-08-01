@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>레모나 홈페이지</title>
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Noto Sans KR 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
 	<!-- Bootstrap 아이콘 -->
@@ -18,6 +20,8 @@
 	<link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
 	<!-- 제이쿼리 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<!-- 내 자바스크립트 -->
 	<script src="js/main.js"></script>
 </head>
@@ -46,24 +50,38 @@
 	<!-- 메인 비주얼 -->
 	<section id="main-visual">
 		<div class="container">
-			<div class="title">
+			<div class="title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
 				<div>
-				<h2>우리 모두를 위한<br>
-					LIFE VITAMIN</h2>
-				<p>
-					<span>맛있는 비타민 습관,</span>
-					<span>레모나</span>
-				</p>
-			</div>
+					<h2>우리 모두를 위한<br>
+						LIFE VITAMIN</h2>
+					<p>
+						<span>맛있는 비타민 습관,</span>
+						<span>레모나</span>
+					</p>
+				</div>
 			</div><!-- title -->
-			<div class="img">
+			<div class="img" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000">
 				<img src="images/main-visual-img01.png" alt="레모나">
 			</div>
 		</div> <!-- container -->
 	</section>
 
-	<section>
-		<h2>VITAMIN</h2>
+	<section id="main-section1">
+		<div class="container">
+			<div class="col">
+				<img src="images/lemona-products2.png" alt="레모나">
+			</div>
+			<div class="col">
+				<div class="info">
+					<h2>VITAMIN</h2>
+					<p class="sub-title">6년 연속 브랜드 대상 NO.1 비타민</p>
+					<p>레모나는 1983년 국내 최초로 산제 비타민C로 출시되어 ‘비타민C는 노란색 레모나’라는 이미지를 각인 시키며 장수 브랜드로 사랑받고 있으며 이제는 해외에서도 이너뷰티 제품으로 각광받는
+						대표적인
+						한류제품이 되었습니다.</p>
+					<a href="#" class="btn btn-detail">자세히보기</a>
+				</div>
+			</div>
+		</div>
 	</section>
 
 </body>
