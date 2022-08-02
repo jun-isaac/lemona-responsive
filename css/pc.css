@@ -189,6 +189,7 @@ section h2 {
 	text-align: center;
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #main-section2 .container .col h2 {
