@@ -5,14 +5,20 @@
 	--bg-color-light: #F1F1F1;
 	--text-color-dark: #111;
 	--text-color-light:#666;
-	/* header 높이값 */
-	--pc-header-height: 90px;
-	--mobile-header-height: 60px;
 
 	  /* 배너 색상 */
 		--banner-bg-color1: #FCEEAD;
 		--banner-bg-color2: #C1A3D9;
 		--banner-bg-color3: #BEDE71;
+
+			/* header 높이값 */
+	--pc-header-height: 90px;
+	--mobile-header-height: 60px;
+}
+
+html {
+	/* 페이지 smooth scroll */
+	scroll-behavior: smooth;
 }
 
 

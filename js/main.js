@@ -5,7 +5,21 @@ $(function(){
 		$("#main-header nav").toggleClass("on");
 	});
 
-	// AOS 초기화
-	AOS.init();
+	// 모달창
+
+	$(".youtube").click(function(){
+		$(".modal").addClass("on")
+	});
+
+	$(".btn-close").click(function(){
+		$(".modal").removeClass("on")
+	});
+
 
 }); //$
+
+//  이미지 및 콘텐츠 로딩 체크
+window.onload = function (){
+	// AOS 초기화
+	AOS.init();
+}
